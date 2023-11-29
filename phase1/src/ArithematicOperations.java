@@ -15,17 +15,17 @@ public class ArithematicOperations {
 
         // Perform arithmetic operations.
         int sum 		= num1 + num2;
-        int difference 	= num1 - num2;
-        int product 	= num1 * num2;
-        int quotient	= num1 / num2;
+        int substraction 	= num1 - num2;
+        int multiplication	= num1 * num2;
+        int division	= num1 / num2;
         int modulo	    = num1 % num2;
         
 
         // Print result to console.
         System.out.println("Sum : "         + sum);
-        System.out.println("Difference : "  + difference);
-        System.out.println("Product : "     + product);
-        System.out.println("Quotient : "    + quotient);
+        System.out.println("Substraction : "  + substraction);
+        System.out.println("Multiplication : "     + multiplication);
+        System.out.println("Division : "    + division);
         System.out.println("Modulo : "      + modulo);
 
 	}
