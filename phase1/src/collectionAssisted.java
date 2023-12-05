@@ -1,4 +1,6 @@
 import java.util.*;
+import java.io.*;
+import java.util.Iterator;
 public class collectionAssisted {
 
 	public static void main(String[] args) {
@@ -20,10 +22,10 @@ public class collectionAssisted {
 		//creating linkedlist
 	      System.out.println("\n");
 	      System.out.println("LinkedList");
-	      LinkedList<String> names=new LinkedList<String>();  
-	      names.add("Alex");  
-	      names.add("John");  	      
-	      Iterator<String> itr=names.iterator();  
+	      LinkedList names=new LinkedList(); 
+	      ((Collection<String>) names).add("Alex");   
+	      ((Collection<String>) names).add("John");  	      
+	      Iterator<String> itr=((Collection<String>) names).iterator(); 
 	      while(itr.hasNext()){  
 	       System.out.println(itr.next());  
 	       
