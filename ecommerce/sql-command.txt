@@ -1,0 +1,8 @@
+CREATE TABLE eproduct 
+(  ID bigint(20) NOT NULL AUTO_INCREMENT,
+  name varchar(100) DEFAULT NULL,
+  price decimal(10,2) DEFAULT NULL,
+  date_added timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (ID)
+) ;
+INSERT INTO eproduct VALUES (1,'HP Laptop ABC',12000.00),(2,'Acer Laptop ABC',12000.00),(3,'Lenovo Laptop ABC',12000.00);

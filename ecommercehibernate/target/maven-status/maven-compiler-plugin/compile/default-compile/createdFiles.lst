@@ -1,0 +1,3 @@
+com\ecommerce\controller\EProductController.class
+com\ecommerce\dao\EProductDAO.class
+com\simpli\entities\EProductEntity.class
