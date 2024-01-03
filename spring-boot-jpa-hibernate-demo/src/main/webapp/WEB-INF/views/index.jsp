@@ -1,6 +1,6 @@
 <a href="add-product" >Add New product</a> 
 &nbsp;&nbsp;|&nbsp;&nbsp;
-<a href="list-products" >List products</a>
+<a href="list-products" >list of products</a>
 
 <br><br>
 Delete a product:<br>
