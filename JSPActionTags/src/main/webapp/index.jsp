@@ -8,7 +8,7 @@
 </head>
 <body>
 Usage of useBean tag<br>
-<jsp:useBean id="productBean" class="com.ecommerce.ProductBean" />
+<jsp:useBean id="productBean" class="com.example.ProductBean" />
         <jsp:setProperty property="productId" name="productBean" value="18791"/>
         <jsp:setProperty property="productName" name="productBean" value="Optical Wireless Mouse"/>
         <jsp:setProperty property="price" name="productBean" value="600.00"/>
